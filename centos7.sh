@@ -1,13 +1,5 @@
 #!/bin/bash
 
-#下载centos禁Ping
-wget https://github.com/tirqouui/ti/blob/master/sysctl.conf
-
-#将脚本移动到/etc/rc.d/init.d目录下
-mv -f /root/sysctl.conf /etc/
-
-#保存后执行sysctl -p命令配置生效
-sysctl -p
 
 #查看防火墙状态
 firewall-cmd --state
