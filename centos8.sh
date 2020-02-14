@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #下载centos禁Ping
-wget http://dlam.ml/ssr-download/sysctl.conf
+wget https://github.com/tirqouui/ti/blob/master/sysctl.conf
 
 #将脚本移动到/etc/rc.d/init.d目录下
 mv -f /root/sysctl.conf /etc/
